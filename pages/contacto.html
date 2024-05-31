@@ -15,24 +15,39 @@
 
 <body>
   <header>
-    <div class="cabecera">
-      <div class="Logo">Fuego&nbsp;<span class="red">GOURMET</span></div>
-      <div class="maqueta1">
-        <div class="maqueta2">
-          <div><a href="../index.html" target="_self">Home</a></div>
-          <div><a href="./carta.html" target="_self">Carta</a></div>
-          <div><a href="./contacto.html" target="_self">Contacto</a></div>
-        </div>
-        <div class="maqueta3">
-          <div><button class="button3">Reserva</button></div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Fuego&nbsp;<span class="red">GOURMET</span> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./carta.html">Carta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Reserva</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
   </header>
 
-  <div class="centro">
-    <img src="../img/hamburguesa.jpg" alt="" class="background" width="1178" height="580" />
-  </div>
+
+  <section>
+    <div class="centro-rosa">
+    </div>
+  </section>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
