@@ -12,6 +12,10 @@ a {
   color: red;
 }
 
+.container-fluid{
+  padding: 0;
+  margin: 0S;
+}
 
 .background {
   width: 100%;
