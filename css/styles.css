@@ -89,9 +89,12 @@ label {
 	}
 }
 
-.contacto {
+.texto {
   color: white;
   text-align: center;
   margin-top: start;
 }
 
+.card {
+  margin: 3em;
+}
