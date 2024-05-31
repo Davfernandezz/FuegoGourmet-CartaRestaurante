@@ -1,6 +1,6 @@
 body {
   font-family: "Poetsen One", sans-serif;
-  background-color: white;
+  background-color: black;
 }
 
 .red {
@@ -15,26 +15,6 @@ a {
 .background {
   width: 100%;
   height: auto;
-
-}
-
-.descripcion {
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(230, 63, 63);
-  height: 3em;
-  padding: 5em;
-  font-size: 2em;
-  color: white;
-}
-
-.centro-rosa {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  background-color: rgb(230, 63, 63);
-  height: 3em;
-  padding: 16em;
 }
 
 .carousel-caption p {
@@ -65,4 +45,31 @@ a {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-top: 1em;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
 }
