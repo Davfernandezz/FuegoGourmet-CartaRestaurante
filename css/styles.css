@@ -1,6 +1,11 @@
 body {
   font-family: "Poetsen One", sans-serif;
   background-color: black;
+  padding-top: 3em;
+}
+
+.red {
+  color: red;
 }
 
 .red {
@@ -10,6 +15,11 @@ body {
 a {
   text-decoration: none;
   color: red;
+}
+
+p {
+
+  color: white;
 }
 
 .background {
@@ -73,3 +83,10 @@ a {
 		margin-bottom: 30px;
 	}
 }
+
+.contacto {
+  color: white;
+  text-align: center;
+  margin-top: start;
+}
+
