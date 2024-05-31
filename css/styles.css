@@ -22,6 +22,11 @@ p {
   color: white;
 }
 
+label {
+
+  color: white;
+}
+
 .background {
   width: 100%;
   height: auto;
