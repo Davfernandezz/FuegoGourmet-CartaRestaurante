@@ -98,3 +98,20 @@ label {
 .card {
   margin: 3em;
 }
+
+.mapa {
+  margin: 3em;
+  align-items: center;
+  text-align: center;
+}
+
+#subscripcion{
+display: flex;
+margin-top: 2em;
+margin-bottom: 1em;
+color: red;
+}
+
+#aviso{
+  font-size: 10px;
+ }
